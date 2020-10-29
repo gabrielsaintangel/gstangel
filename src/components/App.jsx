@@ -5,14 +5,15 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
+
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, skillData, projectsData, contactData, footerData } from '../mock/data';
+import { heroData, aboutData, skillsData, toolsData, colors, projectsData, contactData, footerData } from '../mock/data';
+
 
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
-  const [skill, setSkills] = useState({});
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});

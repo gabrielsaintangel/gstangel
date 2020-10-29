@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gstangel.io",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,

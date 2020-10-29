@@ -1,6 +1,4 @@
 import { nanoid } from 'nanoid';
-import SkillBar from 'react-skillbars';
-import React from 'react'
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
@@ -16,14 +14,30 @@ export const heroData = {
   cta: 'Learn more',
 };
 
-
+//tools
+export const toolsData = [
+  {type: "Linux", level: 90},
+  {type: "Git", level: 90},
+  {type: "ReactJS", level: 75},
+  {type: "ML", level: 65},
+  {type: "Algorithms", level: 65},
+];
 
 //SKILLS
-export const skills = [
+export const skillsData = [
+  {type: "Python", level: 90},
   {type: "Java", level: 85},
-  {type: "Javascript", level: 75},
+  {type: "ReactJS", level: 70},
+  {type: "C++", level: 70},
+  {type: "Swift", level: 65},
 ];
-<SkillBar skills={skills}/>
+export const colors = {
+  bar: '#00cdac',
+  title: {
+    text: '#000000',
+    background: '#fff'
+  }
+}
 
 
 // PROJECTS DATA
